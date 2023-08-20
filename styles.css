@@ -83,7 +83,7 @@ img {
 }
 
 .portfolio {
-    margin: 50px 0 150px;
+    margin: 50px 0 125px;
 }
 
 .folio-header {
@@ -107,7 +107,7 @@ img {
 }
 
 .item .img-wrapper {
-    border: 3px solid blue;
+    border: 3px solid #3882f6;
     width: 155px;
     height: 155px;
     border-radius: 10px;
@@ -123,3 +123,66 @@ img {
     font-size: 16px;
 }
 
+.quote-section {
+    padding: 150px 0 100px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    max-width: 800px;
+    font-style: italic;
+}
+
+.quote-by {
+    align-self: end;
+    margin-right: 25%;
+    font-size: 24px;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.contact-wrapper {
+    border-radius: 8px;
+    background-color: #3882f6;
+    display: flex;
+    padding: 50px;
+    flex: 0 0 900px;
+    justify-content: space-around;
+}
+
+.contact-info h4 {
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+.contact-info p {
+    color:  #e5e7eb;
+}
+
+.alt-btn {
+    border: 2px solid #f9faf8;
+    padding: 6px 35px;
+    height: fit-content;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 45px;
+    font-size: 17px;
+    text-align: center;
+}
+
+.copyright span {
+    margin: 0 5px;
+}
